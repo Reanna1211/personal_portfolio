@@ -33,18 +33,18 @@ nav {
 }
 
 .website {
-    width: 1000px;
+    width: 800px;
     margin-right: 10px;
 }
 
 
-
 .example-container {
     display: flex;
-    align-items: center;
+    /* align-items: center;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px; */
 }
+
 
 #projects {
     margin: 10px;
