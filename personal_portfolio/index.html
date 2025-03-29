@@ -27,6 +27,7 @@
             <p>Hi! I'm Reanna, currently a psychological wellbeing practitioner looking to transition to a tech career.</p>
             <p>I have a keen interest in coding and building websites with front end and back end development. I also have an interest in data science and Machine Learning and love learning about AI.</p>
             <p>In my free time, I enjoy self teaching full stack engineer online courses and would like to eventually build an app with my skills. I also enjoy learning languages like Spanish and Korean as well as bachata and salsa dancing. I enjoy running and keeping fit</p>
+            <p>Fun fact I've been learning to code for <span id = "time-container"></span> seconds!</p>
         </div>
         <img src="./images/ID Badge photo.jpg" alt="A photo of Reanna" class = "portrait">
         </div>
@@ -64,6 +65,23 @@
         </div>
     </section>
    </main>
-    
+   <footer>
+    Made by Reanna   <span class="heart">♥</span>
+   </footer>
+<script>
+   const timeContainer = document.getElementById("time-container");
+   const START_DAY = "11-24-2023";
+   const START_DAY_DATE = new Date(START_DAY);
+   const intlNumberFormatter = new Intl.NumberFormat("en-US");
+
+   setInterval(() => {
+     const now = new Date();
+     const difference = Math.floor(
+       (now.getTime() - START_DAY_DATE.getTime()) / 1000
+     );
+
+     timeContainer.innerText = intlNumberFormatter.format(difference);
+   }, 1000);
+    </script>
 </body>
 </html>
