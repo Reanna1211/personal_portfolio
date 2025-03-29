@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 226, 197);
+    background-color: rgb(224, 188, 241);
 }
 
 nav {
@@ -30,10 +30,7 @@ nav {
     padding: 5px;
 }
 
-#about-me h3 {
-    display:flex;
-    justify-content: center;
-}
+
 .portrait {
     width: 200px;
     border-radius: 12px;
@@ -62,10 +59,7 @@ nav {
     margin: 10px;
 }
 
-#projects h3 {
-    display:flex;
-    justify-content: center;
-}
+
 a {
     text-decoration: none;
     font-weight: 600;
