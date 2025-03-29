@@ -34,13 +34,18 @@ nav {
 
 .website {
     width: 300px;
+    margin-right: 10px;
 }
 
 .example {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 10px;
 }
 
-.website {
-    margin-left: 100px;
+
+
+#projects {
+    margin: 10px;
 }
