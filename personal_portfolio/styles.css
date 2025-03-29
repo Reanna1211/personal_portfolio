@@ -16,6 +16,31 @@ nav {
     
 }
 
+.about-me-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
 .navigation-items li {
     padding: 5px;
+}
+
+.portrait {
+    width: 200px;
+    border-radius: 12px;
+    flex-shrink: 1;
+}
+
+.website {
+    width: 300px;
+}
+
+.example {
+    display: flex;
+    align-items: center;
+}
+
+.website {
+    margin-left: 100px;
 }
