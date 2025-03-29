@@ -33,7 +33,7 @@ nav {
 }
 
 .website {
-    width: 800px;
+    width: 500px;
     margin-right: 10px;
 }
 
@@ -41,8 +41,8 @@ nav {
 .example-container {
     display: flex;
     /* align-items: center;
-    justify-content: space-between;
-    margin: 10px; */
+    justify-content: space-between; */
+    margin: 10px; 
 }
 
 
