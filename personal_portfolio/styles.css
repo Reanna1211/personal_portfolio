@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(240, 226, 197);
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -26,6 +30,10 @@ nav {
     padding: 5px;
 }
 
+#about-me h3 {
+    display:flex;
+    justify-content: center;
+}
 .portrait {
     width: 200px;
     border-radius: 12px;
@@ -35,6 +43,7 @@ nav {
 .website {
     width: 75%;
     margin-right: 20px;
+    border-radius: 12px;
 }
 
 
@@ -51,4 +60,40 @@ nav {
 
 #projects {
     margin: 10px;
+}
+
+#projects h3 {
+    display:flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+#skills h3 {
+    display:flex;
+    justify-content: center;
+}
+.skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+i {
+    font-weight: 900;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contact h3 {
+    display:flex;
+    justify-content: center;
 }
