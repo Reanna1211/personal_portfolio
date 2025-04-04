@@ -4,7 +4,7 @@
   "scripts": {
     "start": "node server/server.js",
     "build": "npm run build --prefix blogging-website-frontend",
-    "heroku-postbuild": "npm run build --prefix mern-blogging-website/blogging-website-frontend",
+    "heroku-postbuild": "npm run build --prefix \"mern-blogging-website/blogging website - frontend\"",
     "dev": "nodemon server/server.js"
   },
   "dependencies": {
