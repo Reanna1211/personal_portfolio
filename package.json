@@ -1,6 +1,9 @@
 {
   "name": "mern-blogging-website",
   "version": "1.0.0",
+  "engines": {
+    "node": "20.18.0"
+  },
   "scripts": {
     "start": "node server/server.js",
     "build": "npm run build --prefix blogging-website-frontend",
